@@ -1,0 +1,12 @@
+slot 插槽 
+1.slot="title" 名字随便取   
+2.(1) FormHelper.vue <slot name="xxxx"></slot>  
+(2)app.vue 的 tem->div->FormHelper-><div slot="xxxx> 搭配使用
+动态组件
+1.绑定的属性    components:"FormOne"  FormOne 是注册组件的名字
+2.keep - alive 保存缓存的值
+1.组件嵌套
+2.多个组件
+3.属性传值传引用
+4.eventbus $emit
+5.生命周期的钩子函数
